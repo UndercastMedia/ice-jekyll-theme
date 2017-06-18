@@ -1,0 +1,54 @@
+footer {
+  
+  .row {
+    margin-bottom: 0;
+  }
+  
+  p {
+    color: rgba(255, 255, 255, .87);
+  }
+  
+  .footer-credit {
+    
+    color: rgba(255, 255, 255, .7);
+    font-size: 13px;
+    
+    a {
+      color: rgba(255, 255, 255, .7);
+    }
+    
+    a:hover {
+      color: #FFF;
+    }
+    
+  }
+  
+  .footer-social {
+    
+    svg {
+      
+      height: 16px;
+      margin: 0 7px;
+      width: 16px;
+      
+      path {
+        fill: rgba(255, 255, 255, .5);
+      }
+      
+    }
+    
+    a:hover svg path {
+      fill: #FFF;
+    }
+    
+  }
+  
+}
+  
+@media only screen and (min-width: 993px) {
+
+  .footer-social {
+    text-align: right;
+  }
+
+}

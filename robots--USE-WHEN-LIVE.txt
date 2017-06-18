@@ -1,0 +1,8 @@
+---
+layout: null
+sitemap: false
+---
+
+# Replace the current robots.txt with this file when your site is ready.
+User-agent: *
+Sitemap: {{ site.url }}/sitemap.xml

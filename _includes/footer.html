@@ -1,0 +1,43 @@
+<footer>
+  <div class="row container">
+    <div class="col s12 center">
+      <p class="editable flow-text">A final statement to sell your offer.</p>
+      {% include email.html id="footer" %}
+    </div>
+    <div class="col l6 s12 footer-credit center">
+      <span><a href="https://undercastmedia.com" target="_blank" rel="noopener">Web Design</a> by Undercast Media</span>
+    </div>
+    <div class="col l6 s12 footer-social center">
+      {% if site.data.social_media.facebook_url %}
+      <a href="{{ site.data.social_media.facebook_url }}" target="_blank" rel="noopener" aria-label="{{ site.data.theme.title }} on Facebook">
+        {% include icons/facebook-f.svg %}
+      </a>
+      {% endif %}
+      {% if site.data.social_media.linkedin_url %}
+      <a href="{{ site.data.social_media.facebook_url }}" target="_blank" rel="noopener" aria-label="{{ site.data.theme.title }} on LinkedIn">
+        {% include icons/linkedin-square.svg %}
+      </a>
+      {% endif %}
+      {% if site.data.social_media.twitter_url %}
+      <a href="{{ site.data.social_media.twitter_url }}" target="_blank" rel="noopener" aria-label="{{ site.data.theme.title }} on Twitter">
+        {% include icons/twitter.svg %}
+      </a>
+      {% endif %}
+      {% if site.data.social_media.instagram_url %}
+      <a href="{{ site.data.social_media.instagram_url }}" target="_blank" rel="noopener" aria-label="{{ site.data.theme.title }} on Instagram">
+        {% include icons/instagram.svg %}
+      </a>
+      {% endif %}
+      {% if site.data.social_media.google_plus_url %}
+      <a href="{{ site.data.social_media.google_plus_url }}" target="_blank" rel="noopener" aria-label="{{ site.data.theme.title }} on Google Plus">
+        {% include icons/google-plus.svg %}
+      </a>
+      {% endif %}
+      {% if site.data.social_media.email_address %}
+      <a href="mailto:{{ site.data.social_media.email_address }}" aria-label="Email {{ site.data.theme.title }}">
+        {% include icons/envelope.svg %}
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,15 @@
+name: Ice Jekyll Template
+short_name: Ice
+theme_color: '#fe9800'
+background_color: '#1ea6c6'
+icons:
+  192px_by_192px_image: /images/icons/icon_196x196.png
+  256px_by_256px_image: /images/icons/icon_256x256.png
+  384px_by_384px_image: /images/icons/icon_384x384.png
+  512px_by_512px_image: /images/icons/icon_512x512.png
+_comments:
+  name: Name of your web app.
+  short_name: Short name of your web app. (less than 12 characters)
+  theme_color: Color of the toolbar.
+  background_color: Background color used when the web app is launched.
+  icons: Icons used when your web app is launched or added to a home screen. (.png files only)

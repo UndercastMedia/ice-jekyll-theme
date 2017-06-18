@@ -1,0 +1,29 @@
+#about {
+
+  background-color: #FFF;
+  padding: 35px 0 20px 0;
+  
+  h2 {
+    color: rgba(0, 0, 0, .87);
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    font-size: 1.42rem;
+    line-height: 2.14rem;
+    margin: 1.72rem 0px 1.4rem 0px;
+  }
+  
+  p {
+    color: rgba(0, 0, 0, .54);
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.02rem;
+    line-height: 1.72rem;
+    margin: 0px 0px 1.72rem 0px;
+  }
+  
+  img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+}

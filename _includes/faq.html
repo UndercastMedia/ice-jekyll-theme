@@ -1,0 +1,11 @@
+<section id="faq">
+  <div class="container center">
+    <h2 class="editable">Frequently Asked Questions</h2>
+  </div>
+  {% for faq in page.faq %}
+  {% cycle '<div class="row container"><div class="col l6 s12">', '<div class="col l6 s12">' %}
+    <h3>{{ faq.question }}</h3>
+    <p>{{ faq.answer }}</p>
+  {% cycle '</div>', '</div></div>' %}
+  {% endfor %}
+</section>

@@ -1,0 +1,11 @@
+<form class="email-capture" action="{{ page.newsletter_action }}" method="post" target="_blank">
+  <div class="row">
+    <div class="col s12 input-field">
+      <label for="{{ include.id }}">Your email address</label>
+      <input id="{{ include.id }}" type="email" name="EMAIL" class="validate">
+      <button class="btn waves-effect waves-light" type="submit">
+        {{ page.call_to_action }}
+      </button>
+    </div>
+  </div>
+</form>

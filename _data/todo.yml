@@ -1,0 +1,23 @@
+update_site_url: false
+update_home_page_video: false
+replace_dummy_text: false
+add_newsletter_action: false
+add_social_media_links: false
+update_favicon_image: false
+update_touch_icons: false
+update_siteicon.png: false
+update_manifest_icons: false
+update_robots.txt: false
+add_google_analytics_tracking_id: false
+_comments:
+  update_site_url: Update the site's URL in the _config.yml file.
+  update_home_page_video: Update the video_id variable in the index.html file's front matter.
+  replace_dummy_text: Replace the dummy text on the home page with your own content.
+  add_newsletter_action: Add your Newsletter Action URL to the index.html file's front matter.
+  add_social_media_links: Add your social media links to the social_media.yml data file.
+  update_favicon_image: Update the favicon image in the /images/icons directory.
+  update_touch_icons: Update the touch-icon.png and apple-touch-icon.png files.
+  update_siteicon.png: Update the siteicon.png file if you're using the CloudCannon CMS.
+  update_manifest_icons: Update the icons in the manifest.yml data file.
+  update_robots.txt: Replace the robots.txt file with the robots--USE-WHEN-LIVE.txt file.
+  add_google_analytics_tracking_id: Add your Google Analytics Tracking Id to the theme.yml data file.

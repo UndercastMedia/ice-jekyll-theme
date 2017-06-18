@@ -1,0 +1,8 @@
+---
+layout: null
+sitemap: false
+---
+
+# Disallows all pages from being indexed in search.
+# Replace this robots.txt file with robots--USE-WHEN-LIVE.txt file when your site is ready.
+Disallow: *

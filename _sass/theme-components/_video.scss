@@ -1,0 +1,18 @@
+#video-embed {
+  margin: auto;
+  max-width: 700px;
+}
+
+#ytplayer-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+#ytplayer-wrapper iframe,
+#ytplayer-wrapper object,
+#ytplayer-wrapper embed {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}

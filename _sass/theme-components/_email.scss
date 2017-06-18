@@ -1,0 +1,50 @@
+.email-capture .row {
+  margin-bottom: 0;
+}
+
+.email-capture .input-field {
+  margin: 0;
+}
+
+.email-capture label {
+  color: rgba(255, 255, 255, 0.54);
+  left: auto !important;
+}
+
+.email-capture input {
+  color: #fff;
+  margin-right: 20px;
+  max-width: 500px;
+  width: 50%;
+}
+
+.email-capture input[type=email] {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.54);
+}
+
+.email-capture input[type=email].valid,
+.email-capture input[type=email].invalid {
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 769px) {
+    
+  .email-capture input {
+    margin-right: 0;
+    width: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 426px) {
+
+  .email-capture input {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .email-capture button {
+    width: 100%;
+  }
+
+}

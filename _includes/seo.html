@@ -1,0 +1,19 @@
+{% if page.title %}
+<title>{{ page.title }}</title>
+<meta property="og:title" content="{{ page.title }}">
+{% else %}
+<title>{{ site.data.theme.title }}</title>
+<meta property="og:title" content="{{ site.data.theme.title }}">
+{% endif %}
+
+{% if page.description %}
+<meta name="description" content="{{ page.description }}">
+<meta property="og:description" content="{{ page.description }}">
+{% else %}
+<meta name="description" content="{{ site.data.theme.description }}">
+<meta property="og:description" content="{{ site.data.theme.description }}">
+{% endif %}
+
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.data.theme.title }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">

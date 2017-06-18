@@ -1,0 +1,31 @@
+#stat {
+  
+  padding: 30px 0;
+  
+  .row {
+    margin-bottom: 0;
+  }
+  
+  .large-text {
+    color: #FFF;
+    font-size: 8rem;
+  }
+  
+  p {
+    color: rgba(255, 255, 255, .75);
+    font-size: 2rem;
+  }
+  
+  .col {
+    margin: 0;
+  }
+  
+}
+  
+@media only screen and (max-width: 602px) {
+
+  #stat .valign-wrapper {
+    display: block;
+  }
+
+}

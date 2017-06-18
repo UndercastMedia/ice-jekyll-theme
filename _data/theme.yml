@@ -1,0 +1,12 @@
+title: Ice - Jekyll Theme by Undercast Media
+description: Ice is a landing page theme built for Jekyll. Inspired by Google's Material Design and compatible with CloudCannon CMS.
+primary_color: '#1ea6c6'
+accent_color: '#fe9800'
+favicon_image: /images/icons/favicon.png
+google_analytics_tracking_id:
+white_label: false
+_comments:
+  title: The name of your site.
+  description: The defualt page description.
+  favicon: Icon displayed in the browser's address bar. (32x32)
+  white_label: Remove branding at the bottom of the page.

@@ -1,0 +1,42 @@
+<script src="//code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+<script src="/js/materialize/global.js"></script>
+<script src="/js/materialize/forms.js"></script>
+<script src="/js/materialize/waves.js"></script>
+
+{% if page.video_id %}
+<script>
+  // This code loads the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // This function creates an <iframe> (and YouTube player)
+  // after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '315',
+      width: '560',
+      videoId: '{{ page.video_id }}',
+      playerVars: {
+        'rel': 0, // Remove suggested videos.
+        'autoplay': 1, // Autoplay the video.
+        'showinfo': 0, // Remove video title and player actions.
+        'modestbranding': 0 // Remove the YouTube logo in control bar.
+      },
+      events: {
+        'onReady': onPlayerReady
+      }
+    });
+  }
+
+  // The API will call this function when the video player is ready.
+  function onPlayerReady(event) {
+    event.target.mute();
+  }
+</script>
+{% endif %}

@@ -1,0 +1,13 @@
+url: https://ice.undercastmedia.com
+markdown: kramdown
+
+sass:
+  style: compressed
+  
+uploads_dir: 'images/uploads'
+
+defaults:
+  - scope:
+      path: "index.html"
+    values:
+      layout: "default"
